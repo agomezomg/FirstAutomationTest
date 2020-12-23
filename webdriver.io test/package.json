@@ -1,0 +1,17 @@
+{
+  "name": "webdriver.io-test",
+  "version": "1.0.0",
+  "description": "test for acklen",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "lana",
+  "license": "ISC",
+  "devDependencies": {
+    "webdriverio": "^6.10.11"
+  },
+  "dependencies": {
+    "@wdio/cli": "^6.10.11"
+  }
+}
