@@ -90,7 +90,7 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    baseUrl: 'https://www.shino.de/parkcalc/',
+    baseUrl: 'https://www.shino.de/',
     //
     // Default timeout for all waitFor* commands.
     waitforTimeout: 10000,
@@ -106,7 +106,7 @@ exports.config = {
     // Services take over a specific job you don't want to take care of. They enhance
     // your test setup with almost no effort. Unlike plugins, they don't add new
     // commands. Instead, they hook themselves up into the test process.
-    services: ['selenium-standalone'],
+    services: ['chromedriver'],
     
     // Framework you want to run your specs with.
     // The following are supported: Mocha, Jasmine, and Cucumber
@@ -128,7 +128,7 @@ exports.config = {
     // Test reporter for stdout.
     // The only one supported by default is 'dot'
     // see also: https://webdriver.io/docs/dot-reporter.html
-    reporters: ['spec',['allure', {outputDir: 'allure-results'}],'json','html'],
+    reporters: ['spec'],
 
 
     
@@ -174,7 +174,6 @@ exports.config = {
      */
     // beforeSession: function (config, capabilities, specs) {
     // },
-    
     /**
      * Gets executed before test execution begins. At this point you can access to all global
      * variables like `browser`. It is the perfect place to define custom commands.
@@ -200,14 +199,8 @@ exports.config = {
     /**
      * Function to be executed before a test (in Mocha/Jasmine) starts.
      */
-    beforeTest: () => {
-        const chai = require('chai');
-        const chaiWebdriver = require('chai-webdriverio').default;
-        chai.use(chaiWebdriver(browser));
-        global.assert = chai.assert;
-        global.should = chai.should;
-        global.expect = chai.expect;
-    },
+    // beforeTest: function (test, context) {
+    // },
     /**
      * Hook that gets executed _before_ a hook within the suite starts (e.g. runs before calling
      * beforeEach in Mocha)
@@ -223,11 +216,8 @@ exports.config = {
     /**
      * Function to be executed after a test (in Mocha/Jasmine).
      */
-    afterTest: function(test, context, { error, result, duration, passed, retries }) {
-        if (!passed) {
-            browser.takeScreenshot();
-        }
-    },
+    // afterTest: function(test, context, { error, result, duration, passed, retries }) {
+    // },
 
 
     /**
