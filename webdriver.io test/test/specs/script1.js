@@ -7,11 +7,19 @@ describe("Test 1", () => {
 		const drop_down_menu = $('#ParkingLot');
 		drop_down_menu.selectByIndex(0);
 		const start_date = $('#StartingDate');
+		start_date.setValue('03/01/2020');
 		const start_time = $('#StartingTime');
+		start_time.setValue('13:51');
 		const leaving_date = $('#LeavingDate');
+		start_date.setValue('03/01/2020');
 		const leaving_time = $('#LeavingTime');
-		const radial_start_time = $('#StartingTimeAMPM');
-		const radial_leaving_time = $('#LeavingTimeAMPM');
-		browser.positionClick(browser.moveTo('#Submit', 71.58, 21));
+		start_time.setValue('15:51');
+		const radial_STime_AM = $('=AM');
+		radial_STime_AM.click();
+		
+		const submitButton = $('[name="Submit"]');
+		submitButton.click();
+		browser.pause(10000);
+		console.log(submitButton.getText());
 	})
 });
