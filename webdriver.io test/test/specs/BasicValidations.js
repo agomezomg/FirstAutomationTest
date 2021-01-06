@@ -30,20 +30,21 @@ describe("Testing Basics", () => {
 		start_date.setValue('03/01/2020');
 		/* Creates a constant for Starting Time field and sets value to a valid time. */		
 		const start_time = $('#StartingTime');
-		start_time.setValue('12:51');
+		start_time.setValue('10:51');
 		/* Creates a constant for Leaving Date field and sets value to a valid date. */
 		const leaving_date = $('#LeavingDate');
 		leaving_date.setValue('03/01/2020');
 		/* Creates a constant for Leaving Time field and sets value to a valid time. */
 		const leaving_time = $('#LeavingTime');
 		leaving_time.setValue('12:59');
-		/* Creates an elem array for Radial Buttons and toggles values according to position. */
-		const radial_STime = $$('[name="StartingTimeAMPM"]');
-		radial_STime[1].click();
 		/* Creates a constant for Submit Button and performs a send. */
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
 
+
+		/* Should result in something like $12 (0 Days, 0 Hours, 59 minutes) */
+		const result = $('*=59 Minutes');
+		console.log(result.getText());
 		allureReporter.addSeverity('Critical');
 	});
 
@@ -56,19 +57,21 @@ describe("Testing Basics", () => {
 		start_date.setValue('03/012020');
 		/* Creates a constant for Starting Time field and sets value to a valid time. */		
 		const start_time = $('#StartingTime');
-		start_time.setValue('13:51');
+		start_time.setValue('10:51');
 		/* Creates a constant for Leaving Date field and sets value to a valid date. */
 		const leaving_date = $('#LeavingDate');
 		leaving_date.setValue('03/01/2020');
 		/* Creates a constant for Leaving Time field and sets value to a valid time. */
 		const leaving_time = $('#LeavingTime');
 		leaving_time.setValue('12:59');
-		/* Creates an elem array for Radial Buttons and toggles values according to position. */
-		const radial_STime = $$('[name="StartingTimeAMPM"]');
-		radial_STime[1].click();
 		/* Creates a constant for Submit Button and performs a send. */
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
+
+		/* Should result in ERROR! ENTER A CORRECTLY FORMATTED DATE */
+		const result = $('=ERROR! ENTER A CORRECTLY FORMATTED DATE');
+		console.log(result.getText());
+		allureReporter.addSeverity('Critical');
 	});
 
 	it("Testing format compliance with starting time text field", () => {
@@ -80,7 +83,7 @@ describe("Testing Basics", () => {
 		start_date.setValue('03/012020');
 		/* Creates a constant for Starting Time field and sets value to an invalid time. */		
 		const start_time = $('#StartingTime');
-		start_time.setValue('13?');
+		start_time.setValue('10?');
 		/* Creates a constant for Leaving Date field and sets value to a valid date. */
 		const leaving_date = $('#LeavingDate');
 		leaving_date.setValue('03/01/2020');
@@ -93,6 +96,11 @@ describe("Testing Basics", () => {
 		/* Creates a constant for Submit Button and performs a send. */
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
+
+		/* Should result in ERROR! ENTER A CORRECTLY FORMATTED DATE */
+		const result = $('=ERROR! ENTER A CORRECTLY FORMATTED DATE');
+		console.log(result.getText());
+		allureReporter.addSeverity('Critical');
 	});
 
 	it("Testing format compliance with leaving date text field", () => {
@@ -104,7 +112,7 @@ describe("Testing Basics", () => {
 		start_date.setValue('03/012020');
 		/* Creates a constant for Starting Time field and sets value to a valid time. */		
 		const start_time = $('#StartingTime');
-		start_time.setValue('13?');
+		start_time.setValue('10:00');
 		/* Creates a constant for Leaving Date field and sets value to an invalid date. */
 		const leaving_date = $('#LeavingDate');
 		leaving_date.setValue('03/2020');
@@ -117,6 +125,11 @@ describe("Testing Basics", () => {
 		/* Creates a constant for Submit Button and performs a send. */
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
+
+		/* Should result in ERROR */
+		const result = $('*=ERROR');
+		console.log(result.getText());
+		allureReporter.addSeverity('Critical');
 	});
 
 	it("Testing format compliance with leaving time text field", () => {
@@ -128,7 +141,7 @@ describe("Testing Basics", () => {
 		start_date.setValue('03/012020');
 		/* Creates a constant for Starting Time field and sets value to a valid time. */		
 		const start_time = $('#StartingTime');
-		start_time.setValue('13?');
+		start_time.setValue('10:00');
 		/* Creates a constant for Leaving Date field and sets value to a valid date. */
 		const leaving_date = $('#LeavingDate');
 		leaving_date.setValue('03/01/2020');
@@ -141,5 +154,10 @@ describe("Testing Basics", () => {
 		/* Creates a constant for Submit Button and performs a send. */
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
+
+		/* Should result in ERROR */
+		const result = $('*=ERROR');
+		console.log(result.getText());
+		allureReporter.addSeverity('Critical');
 	});
 });
