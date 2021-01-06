@@ -1,0 +1,66 @@
+{
+  "uid" : "aa661a29ae1445b7",
+  "name" : "Testing valid values.",
+  "fullName" : "Testing Basics.Testing valid values.",
+  "historyId" : "9918446dbe516db47dc4433e72de55c",
+  "time" : {
+    "start" : 1609896297231,
+    "stop" : 1609896301849,
+    "duration" : 4618
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Testing Basics"
+  }, {
+    "name" : "testClass",
+    "value" : "Testing Basics"
+  }, {
+    "name" : "testMethod",
+    "value" : "Testing valid values."
+  }, {
+    "name" : "package",
+    "value" : "Testing Basics"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.88"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d9987d0b52595e19",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609895883073,
+        "stop" : 1609895885632,
+        "duration" : 2559
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aa661a29ae1445b7.json",
+  "parameterValues" : [ "chrome-87.0.4280.88" ]
+}

@@ -1,0 +1,35 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Testing Basics",
+    "children" : [ {
+      "name" : "Testing valid values.",
+      "uid" : "aa661a29ae1445b7",
+      "parentUid" : "efb34b15b4b4877c48778d0432d9560d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609896297231,
+        "stop" : 1609896301849,
+        "duration" : 4618
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing format compliance with text fields",
+      "uid" : "28f3df5dfe7fdc39",
+      "parentUid" : "efb34b15b4b4877c48778d0432d9560d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609896301852,
+        "stop" : 1609896303061,
+        "duration" : 1209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    } ],
+    "uid" : "efb34b15b4b4877c48778d0432d9560d"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,21 @@
+[ {
+  "uid" : "aa661a29ae1445b7",
+  "name" : "Testing valid values.",
+  "time" : {
+    "start" : 1609896297231,
+    "stop" : 1609896301849,
+    "duration" : 4618
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "28f3df5dfe7fdc39",
+  "name" : "Testing format compliance with text fields",
+  "time" : {
+    "start" : 1609896301852,
+    "stop" : 1609896303061,
+    "duration" : 1209
+  },
+  "status" : "passed",
+  "severity" : "normal"
+} ]
