@@ -3,27 +3,14 @@
   "children" : [ {
     "name" : "Testing Basics",
     "children" : [ {
-      "name" : "Testing valid values.",
-      "uid" : "aa661a29ae1445b7",
+      "name" : "Testing functionality with valid values.",
+      "uid" : "62e36b3b5800518c",
       "parentUid" : "cf3c1f7c7219faa0388c6d16546ea206",
       "status" : "passed",
       "time" : {
-        "start" : 1609896297231,
-        "stop" : 1609896301849,
-        "duration" : 4618
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing format compliance with text fields",
-      "uid" : "28f3df5dfe7fdc39",
-      "parentUid" : "cf3c1f7c7219faa0388c6d16546ea206",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609896301852,
-        "stop" : 1609896303061,
-        "duration" : 1209
+        "start" : 1609971351072,
+        "stop" : 1609971356304,
+        "duration" : 5232
       },
       "flaky" : false,
       "newFailed" : false,

@@ -1,0 +1,5 @@
+{
+  "error": "no such element",
+  "message": "no such element: Unable to locate element: {\"method\":\"partial link text\",\"selector\":\"(0 Days, 0 Hours, 59 Minutes)\"}\n  (Session info: chrome=87.0.4280.88)",
+  "stacktrace": "#0 0x560e3b4f16a9 <unknown>\n"
+}
