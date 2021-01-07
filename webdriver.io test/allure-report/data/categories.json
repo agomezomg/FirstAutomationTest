@@ -1,5 +1,26 @@
 {
   "uid" : "4b4757e66a1912dae1a509f688f20b0f",
-  "children" : [ ],
+  "children" : [ {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "Expect $(`span*=$ 6.00`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "children" : [ {
+        "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
+        "uid" : "32132d10a33492aa",
+        "parentUid" : "1dc43af0b2f3bd372fa30325172febb6",
+        "status" : "failed",
+        "time" : {
+          "start" : 1609982578197,
+          "stop" : 1609982603537,
+          "duration" : 25340
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.88" ]
+      } ],
+      "uid" : "1dc43af0b2f3bd372fa30325172febb6"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
   "name" : "categories"
 }

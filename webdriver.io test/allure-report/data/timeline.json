@@ -3,144 +3,118 @@
   "children" : [ {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "b5f16a5334b81c5f",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609970447865,
-        "stop" : 1609970452296,
-        "duration" : 4431
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "62e36b3b5800518c",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609971351072,
-        "stop" : 1609971356304,
-        "duration" : 5232
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "2339d9015cb20d9",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609966920514,
-        "stop" : 1609966925144,
-        "duration" : 4630
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "97a2dbb9976d2b5b",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "broken",
-      "time" : {
-        "start" : 1609970370611,
-        "stop" : 1609970375194,
-        "duration" : 4583
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "6c585620cee53e3f",
+      "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
+      "uid" : "32132d10a33492aa",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1609971224201,
-        "stop" : 1609971241336,
-        "duration" : 17135
+        "start" : 1609982578197,
+        "stop" : 1609982603537,
+        "duration" : 25340
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "bf598d7a80978edf",
+      "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
+      "uid" : "b8f4413cc2edce3a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1609916382424,
-        "stop" : 1609916385410,
-        "duration" : 2986
+        "start" : 1609982576526,
+        "stop" : 1609982578196,
+        "duration" : 1670
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "c315e390139d9aa8",
+      "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
+      "uid" : "caa064dbbadee3e3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1609916415670,
-        "stop" : 1609916420010,
-        "duration" : 4340
+        "start" : 1609980003467,
+        "stop" : 1609980006505,
+        "duration" : 3038
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "6409a325d7798a40",
+      "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
+      "uid" : "85fbfdf8c0840050",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1609971299426,
-        "stop" : 1609971317413,
-        "duration" : 17987
+        "start" : 1609980390359,
+        "stop" : 1609980392151,
+        "duration" : 1792
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "e12a71e25a673190",
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "913c9955abd06f3c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1609916158744,
-        "stop" : 1609916171564,
-        "duration" : 12820
+        "start" : 1609979999251,
+        "stop" : 1609980001906,
+        "duration" : 2655
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "66699e9f22f82b04",
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "251300573a7bff74",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "failed",
+      "status" : "passed",
       "time" : {
-        "start" : 1609916183586,
-        "stop" : 1609916198044,
-        "duration" : 14458
+        "start" : 1609980386215,
+        "stop" : 1609980390358,
+        "duration" : 4143
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values.",
-      "uid" : "ff5cfbd285e233be",
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "1457243756c25214",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609982569833,
+        "stop" : 1609982576526,
+        "duration" : 6693
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
+      "uid" : "b16b0fa23121e3b3",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1609971267968,
-        "stop" : 1609971290427,
-        "duration" : 22459
+        "start" : 1609980392151,
+        "stop" : 1609980405451,
+        "duration" : 13300
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
+      "uid" : "f64fa50b12263dbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609980001906,
+        "stop" : 1609980003467,
+        "duration" : 1561
       },
       "flaky" : false,
       "newFailed" : false,

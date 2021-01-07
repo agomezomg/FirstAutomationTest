@@ -1,5 +1,5 @@
 {
-  "4a6d7370da42762f5ae9459bc602c981" : {
+  "e1895fd9b41d365fece6628008cba456" : {
     "statistic" : {
       "failed" : 0,
       "broken" : 0,
@@ -9,12 +9,51 @@
       "total" : 1
     },
     "items" : [ {
-      "uid" : "62e36b3b5800518c",
+      "uid" : "b8f4413cc2edce3a",
       "status" : "passed",
       "time" : {
-        "start" : 1609971351072,
-        "stop" : 1609971356304,
-        "duration" : 5232
+        "start" : 1609982576526,
+        "stop" : 1609982578196,
+        "duration" : 1670
+      }
+    } ]
+  },
+  "3c05b59e635803d699a9b3c1e7ad9470" : {
+    "statistic" : {
+      "failed" : 0,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "1457243756c25214",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609982569833,
+        "stop" : 1609982576526,
+        "duration" : 6693
+      }
+    } ]
+  },
+  "6ac49c08e4119290f5a9221ea5d5bad4" : {
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 0,
+      "unknown" : 0,
+      "total" : 1
+    },
+    "items" : [ {
+      "uid" : "32132d10a33492aa",
+      "status" : "failed",
+      "statusDetails" : "Expect $(`span*=$ 6.00`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "time" : {
+        "start" : 1609982578197,
+        "stop" : 1609982603537,
+        "duration" : 25340
       }
     } ]
   }

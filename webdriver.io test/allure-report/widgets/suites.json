@@ -4,12 +4,12 @@
     "uid" : "cf3c1f7c7219faa0388c6d16546ea206",
     "name" : "Testing Basics",
     "statistic" : {
-      "failed" : 0,
+      "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 1,
+      "passed" : 2,
       "unknown" : 0,
-      "total" : 1
+      "total" : 3
     }
   } ]
 }

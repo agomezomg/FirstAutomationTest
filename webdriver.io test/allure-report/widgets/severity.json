@@ -1,10 +1,30 @@
 [ {
-  "uid" : "62e36b3b5800518c",
-  "name" : "Testing functionality with valid values.",
+  "uid" : "32132d10a33492aa",
+  "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
   "time" : {
-    "start" : 1609971351072,
-    "stop" : 1609971356304,
-    "duration" : 5232
+    "start" : 1609982578197,
+    "stop" : 1609982603537,
+    "duration" : 25340
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "1457243756c25214",
+  "name" : "Testing functionality with default values, changing date only.",
+  "time" : {
+    "start" : 1609982569833,
+    "stop" : 1609982576526,
+    "duration" : 6693
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "b8f4413cc2edce3a",
+  "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
+  "time" : {
+    "start" : 1609982576526,
+    "stop" : 1609982578196,
+    "duration" : 1670
   },
   "status" : "passed",
   "severity" : "normal"
