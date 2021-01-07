@@ -20,26 +20,27 @@ describe("Checking valid date and time stamps", () => {
 		start_date.setValue('03/01/2020');
 		/* Creates a constant for Starting Time field and sets value to a valid time. */		
 		const start_time = $('#StartingTime');
-		start_time.setValue('12:59');
+		start_time.setValue('10:00');
 		/* Creates a constant for Leaving Date field and sets value to a valid date. */
 		const leaving_date = $('#LeavingDate');
-		leaving_date.setValue('02/01/2020');
+		leaving_date.setValue('03/01/2020');
 		/* Creates a constant for Leaving Time field and sets value to a valid time. */
 		const leaving_time = $('#LeavingTime');
-		leaving_time.setValue('12:50');
+		leaving_time.setValue('09:00');
 		/* Creates a constant for Submit Button and performs a send. */
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
 		
-		const result
+		/* Should result in an error. */
+		const result = $('span*=ERROR!');
+		expect(result).toExist();
+		addLabel('Date Validations Test #1');
+		addIssue('Check return message.');
 	});
 
 	/* This test checks that the timestamps are valid, with the starting time being set in PM
 	and the leaving time set in AM within the same date.*/
 	it("Checking validation for leaving date not happening before starting date", () => {
-		/* Creates a constant for dropdown menu and retrieves available, clickable values. */
-		const drop_down_menu = $('#ParkingLot');
-		drop_down_menu.selectByIndex(3);
 		/* Creates a constant for Starting Date field and sets value to a valid date. */
 		const start_date = $('#StartingDate');
 		start_date.setValue('03/01/2020');
@@ -48,7 +49,7 @@ describe("Checking valid date and time stamps", () => {
 		start_time.setValue('12:59');
 		/* Creates a constant for Leaving Date field and sets value to a valid date. */
 		const leaving_date = $('#LeavingDate');
-		leaving_date.setValue('03/01/2020');
+		leaving_date.setValue('02/01/2020');
 		/* Creates a constant for Leaving Time field and sets value to a valid time. */
 		const leaving_time = $('#LeavingTime');
 		leaving_time.setValue('12:50');
@@ -59,6 +60,9 @@ describe("Checking valid date and time stamps", () => {
 		const submitButton = $('[name="Submit"]');
 		submitButton.click();
 
-		
+		/* Should result in an error. */
+		const result = $('span*=ERROR!');
+		expect(result).toExist();
+		addLabel('Date Validations Test #4');	
 	});
 });
