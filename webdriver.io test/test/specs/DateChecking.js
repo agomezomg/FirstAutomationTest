@@ -62,8 +62,4 @@ describe("Checking valid date and time stamps", () => {
 		expect(result[1]).toHaveTextContaining('YOUR LEAVING DATE OR TIME IS BEFORE YOUR STARTING DATE OR TIME');
 		addLabel('Date Validations Test #2');	
 	});
-
-	it("Testing that radial buttons are working properly." () => {
-		
-	});
 });

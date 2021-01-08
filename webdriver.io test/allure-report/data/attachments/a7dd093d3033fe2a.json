@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\".//span[contains(., \"ERROR!\")]\"}\n  (Session info: chrome=87.0.4280.88)",
-  "stacktrace": "#0 0x55d6026b26a9 <unknown>\n"
-}

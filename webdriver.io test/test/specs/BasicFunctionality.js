@@ -116,7 +116,7 @@ describe("Testing pricing according to parking type", () => {
 		const result = $('span*=$ 2.00');
 		expect(result).toExist();
 		addLabel('Basic Test #3');
-		addIssue('Check the Days, Hours, and Minutes stamp');
+		addIssue('Check the Days, Hours, and Minutes stamp on the screenshot attached.');
 	});
 
 	it("Testing for Long-Term Parking.", () => {

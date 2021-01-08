@@ -1,5 +1,0 @@
-{
-  "error": "no such element",
-  "message": "no such element: Unable to locate element: {\"method\":\"partial link text\",\"selector\":\" YOUR LEAVING DATE OR TIME IS BEFORE YOUR STARTING DATE OR TIME\"}\n  (Session info: chrome=87.0.4280.88)",
-  "stacktrace": "#0 0x561b6a4ac6a9 <unknown>\n"
-}

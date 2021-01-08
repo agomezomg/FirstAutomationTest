@@ -1,4 +1,0 @@
-{
-  "using": "xpath",
-  "value": ".//span[contains(., \"YOUR LEAVING DATE OR TIME IS BEFORE YOUR STARTING DATE OR TIME\")]"
-}
