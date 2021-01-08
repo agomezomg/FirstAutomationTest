@@ -1,5 +1,4 @@
-const { addLabel } = require('@wdio/allure-reporter').default;
-const { addIssue } = require('@wdio/allure-reporter').default;
+const { addLabel, addIssue } = require('@wdio/allure-reporter').default;
 
 beforeEach(() => {
 	/* Initilialising browser link and reloading before each test is performed.*/

@@ -1,5 +1,5 @@
-const { addLabel } = require('@wdio/allure-reporter').default;
-const { addIssue } = require('@wdio/allure-reporter').default;
+const { addLabel, addIssue } = require('@wdio/allure-reporter').default;
+
 /* 
 	Simple test to perform with valid values on items without changing radial buttons.
 */
