@@ -3,22 +3,39 @@
   "children" : [ {
     "name" : "Product defects",
     "children" : [ {
-      "name" : "Expect $(`span*=$ 6.00`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "name" : "Expect $(`span*=ERROR!`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
       "children" : [ {
-        "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
-        "uid" : "32132d10a33492aa",
-        "parentUid" : "1dc43af0b2f3bd372fa30325172febb6",
+        "name" : "Checking validation for leaving date not happening before starting time",
+        "uid" : "a020c5059e6b7138",
+        "parentUid" : "3c204881ca4e3c8d6682a221317a8d86",
         "status" : "failed",
         "time" : {
-          "start" : 1609982578197,
-          "stop" : 1609982603537,
-          "duration" : 25340
+          "start" : 1610059681279,
+          "stop" : 1610059696856,
+          "duration" : 15577
         },
         "flaky" : false,
         "newFailed" : false,
         "parameters" : [ "chrome-87.0.4280.88" ]
       } ],
-      "uid" : "1dc43af0b2f3bd372fa30325172febb6"
+      "uid" : "3c204881ca4e3c8d6682a221317a8d86"
+    }, {
+      "name" : "Expect $(`span*=$ 2.00`) to exist\n                \n                Expected: \"exist\"\n                Received: \"not exist\"",
+      "children" : [ {
+        "name" : "Testing for Short-Term Parking.",
+        "uid" : "36a1aa332fd4565b",
+        "parentUid" : "b58c5ae4fb1fb8a96ed0c56d3cd27105",
+        "status" : "failed",
+        "time" : {
+          "start" : 1610059690385,
+          "stop" : 1610059702104,
+          "duration" : 11719
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.88" ]
+      } ],
+      "uid" : "b58c5ae4fb1fb8a96ed0c56d3cd27105"
     } ],
     "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
   } ],

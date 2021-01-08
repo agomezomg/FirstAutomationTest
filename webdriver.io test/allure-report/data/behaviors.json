@@ -2,39 +2,78 @@
   "uid" : "b1a8273437954620fa374b796ffaacdd",
   "children" : [ {
     "name" : "Testing functionality with default values, changing date only.",
-    "uid" : "1457243756c25214",
+    "uid" : "70cd2f52bdd12210",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "passed",
     "time" : {
-      "start" : 1609982569833,
-      "stop" : 1609982576526,
-      "duration" : 6693
+      "start" : 1610059681225,
+      "stop" : 1610059686899,
+      "duration" : 5674
     },
     "flaky" : false,
     "newFailed" : false,
     "parameters" : [ "chrome-87.0.4280.88" ]
   }, {
-    "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
-    "uid" : "b8f4413cc2edce3a",
-    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
-    "status" : "passed",
-    "time" : {
-      "start" : 1609982576526,
-      "stop" : 1609982578196,
-      "duration" : 1670
-    },
-    "flaky" : false,
-    "newFailed" : false,
-    "parameters" : [ "chrome-87.0.4280.88" ]
-  }, {
-    "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
-    "uid" : "32132d10a33492aa",
+    "name" : "Checking validation for leaving date not happening before starting time",
+    "uid" : "a020c5059e6b7138",
     "parentUid" : "b1a8273437954620fa374b796ffaacdd",
     "status" : "failed",
     "time" : {
-      "start" : 1609982578197,
-      "stop" : 1609982603537,
-      "duration" : 25340
+      "start" : 1610059681279,
+      "stop" : 1610059696856,
+      "duration" : 15577
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Testing for Economy Parking.",
+    "uid" : "e57a9caf21616290",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610059688460,
+      "stop" : 1610059690385,
+      "duration" : 1925
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Testing for Short-Term Parking.",
+    "uid" : "36a1aa332fd4565b",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "failed",
+    "time" : {
+      "start" : 1610059690385,
+      "stop" : 1610059702104,
+      "duration" : 11719
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Checking validation for leaving date not happening before starting date",
+    "uid" : "9d7059332b03a232",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610059696857,
+      "stop" : 1610059698371,
+      "duration" : 1514
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ "chrome-87.0.4280.88" ]
+  }, {
+    "name" : "Testing for Long-Term Parking.",
+    "uid" : "d44753191f4f46d8",
+    "parentUid" : "b1a8273437954620fa374b796ffaacdd",
+    "status" : "passed",
+    "time" : {
+      "start" : 1610059702105,
+      "stop" : 1610059704247,
+      "duration" : 2142
     },
     "flaky" : false,
     "newFailed" : false,

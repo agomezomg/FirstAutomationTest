@@ -1,15 +1,26 @@
 {
-  "total" : 1,
+  "total" : 2,
   "items" : [ {
-    "uid" : "cf3c1f7c7219faa0388c6d16546ea206",
-    "name" : "Testing Basics",
+    "uid" : "fa50f814875208941b3300049fd161e2",
+    "name" : "Testing pricing according to parking type (basic functionality)",
     "statistic" : {
       "failed" : 1,
       "broken" : 0,
       "skipped" : 0,
-      "passed" : 2,
+      "passed" : 3,
       "unknown" : 0,
-      "total" : 3
+      "total" : 4
+    }
+  }, {
+    "uid" : "0622af8212da2708ebfef5a9fabd272e",
+    "name" : "Checking valid date and time stamps",
+    "statistic" : {
+      "failed" : 1,
+      "broken" : 0,
+      "skipped" : 0,
+      "passed" : 1,
+      "unknown" : 0,
+      "total" : 2
     }
   } ]
 }

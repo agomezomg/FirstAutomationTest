@@ -20,8 +20,8 @@ text fields) are entered correctly.
 
 */
 
-describe("Testing pricing according to parking type (basic functionality)", () => {
-	it("Testing functionality with default values, changing date only.", () => {
+describe("Testing pricing according to parking type", () => {
+	it("Testing for Valet-Parking.", () => {
 		/* Creates a constant for Starting Date field and sets value to a valid date. */
 		const start_date = $('#StartingDate');
 		start_date.setValue('0/0/0');

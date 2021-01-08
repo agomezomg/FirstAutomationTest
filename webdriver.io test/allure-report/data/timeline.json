@@ -1,120 +1,1086 @@
 {
   "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
   "children" : [ {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "c3e3ae4e2a30f4a6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986810626,
+        "stop" : 1609986823252,
+        "duration" : 12626
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "ebed377987a88462",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986994985,
+        "stop" : 1609987010040,
+        "duration" : 15055
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "5bab5a3cd9b90e8e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986864719,
+        "stop" : 1609986879789,
+        "duration" : 15070
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "5e921d8bc9d11899",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986294704,
+        "stop" : 1609986308433,
+        "duration" : 13729
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "2f15881566ae9900",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609987010041,
+        "stop" : 1609987022583,
+        "duration" : 12542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "aa30755579499f46",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986191031,
+        "stop" : 1609986204197,
+        "duration" : 13166
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "d2e347af73348d6b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986794348,
+        "stop" : 1609986810625,
+        "duration" : 16277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "d7db75dba8f208fa",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986650069,
+        "stop" : 1609986665902,
+        "duration" : 15833
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "4e065faf71e6e2e6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986699007,
+        "stop" : 1609986712446,
+        "duration" : 13439
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "46d655a8043eea48",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1609986308433,
+        "stop" : 1609986310525,
+        "duration" : 2092
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "2d734a90c96cc2c6",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986204198,
+        "stop" : 1609986216551,
+        "duration" : 12353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "9135df5388e462ae",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986712446,
+        "stop" : 1609986724733,
+        "duration" : 12287
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "c2c2c60a3b989e0b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986381954,
+        "stop" : 1609986396658,
+        "duration" : 14704
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "f520175d3fb429fd",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986446435,
+        "stop" : 1609986458371,
+        "duration" : 11936
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "2e39d525fdac19a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1609986396659,
+        "stop" : 1609986398868,
+        "duration" : 2209
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "c0ab75aa0dd41d1",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986433162,
+        "stop" : 1609986446435,
+        "duration" : 13273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "2ef91cc0ab514b7b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609985777955,
+        "stop" : 1609985804519,
+        "duration" : 26564
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "cc515c04faff8164",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609985914988,
+        "stop" : 1609985929317,
+        "duration" : 14329
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "9d7059332b03a232",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610059696857,
+        "stop" : 1610059698371,
+        "duration" : 1514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "903b6e5dd8c46c68",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986879789,
+        "stop" : 1609986891879,
+        "duration" : 12090
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting time",
+      "uid" : "a020c5059e6b7138",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1610059681279,
+        "stop" : 1610059696856,
+        "duration" : 15577
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "80bf58753d620e9e",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986665902,
+        "stop" : 1609986678428,
+        "duration" : 12526
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Checking validation for leaving date not happening before starting date",
+      "uid" : "c4d9e32d8f8d98bd",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609985929317,
+        "stop" : 1609985941053,
+        "duration" : 11736
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  }, {
     "name" : "0-0",
     "children" : [ {
-      "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
-      "uid" : "32132d10a33492aa",
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "d8b4bab58353fb32",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986194891,
+        "stop" : 1609986197286,
+        "duration" : 2395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "36a1aa332fd4565b",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1609982578197,
-        "stop" : 1609982603537,
-        "duration" : 25340
+        "start" : 1610059690385,
+        "stop" : 1610059702104,
+        "duration" : 11719
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
-      "uid" : "b8f4413cc2edce3a",
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "83fa5f8d45cd456c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1609982576526,
-        "stop" : 1609982578196,
-        "duration" : 1670
+        "start" : 1609986386250,
+        "stop" : 1609986388528,
+        "duration" : 2278
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
-      "uid" : "caa064dbbadee3e3",
+      "name" : "Testing for Economy Parking.",
+      "uid" : "f75a780a71d9b2d7",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1609980003467,
-        "stop" : 1609980006505,
-        "duration" : 3038
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
-      "uid" : "85fbfdf8c0840050",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609980390359,
-        "stop" : 1609980392151,
-        "duration" : 1792
+        "start" : 1609986873079,
+        "stop" : 1609986874791,
+        "duration" : 1712
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
       "name" : "Testing functionality with default values, changing date only.",
-      "uid" : "913c9955abd06f3c",
+      "uid" : "a278c108f26d566a",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1609979999251,
-        "stop" : 1609980001906,
-        "duration" : 2655
+        "start" : 1609986794221,
+        "stop" : 1609986800453,
+        "duration" : 6232
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with default values, changing date only.",
-      "uid" : "251300573a7bff74",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609980386215,
-        "stop" : 1609980390358,
-        "duration" : 4143
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with default values, changing date only.",
-      "uid" : "1457243756c25214",
-      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
-      "status" : "passed",
-      "time" : {
-        "start" : 1609982569833,
-        "stop" : 1609982576526,
-        "duration" : 6693
-      },
-      "flaky" : false,
-      "newFailed" : false,
-      "parameters" : [ "chrome-87.0.4280.88" ]
-    }, {
-      "name" : "Testing functionality with valid values with combobox set to Economy Parking.",
-      "uid" : "b16b0fa23121e3b3",
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "2bb5844e9291372d",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "failed",
       "time" : {
-        "start" : 1609980392151,
-        "stop" : 1609980405451,
-        "duration" : 13300
+        "start" : 1609986441016,
+        "stop" : 1609986452486,
+        "duration" : 11470
       },
       "flaky" : false,
       "newFailed" : false,
       "parameters" : [ "chrome-87.0.4280.88" ]
     }, {
-      "name" : "Testing functionality with valid values with combobox set to Short-Term Parking.",
-      "uid" : "f64fa50b12263dbe",
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "4a91cbf2d43e690c",
       "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
       "status" : "passed",
       "time" : {
-        "start" : 1609980001906,
-        "stop" : 1609980003467,
-        "duration" : 1561
+        "start" : 1609986870472,
+        "stop" : 1609986873079,
+        "duration" : 2607
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "e5b81e9c52bb8ac2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610059686900,
+        "stop" : 1610059688460,
+        "duration" : 1560
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "c11e287727b89d29",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986199042,
+        "stop" : 1609986210898,
+        "duration" : 11856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "51df37003264c324",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986197286,
+        "stop" : 1609986199041,
+        "duration" : 1755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "71364578b915e5c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986388528,
+        "stop" : 1609986390403,
+        "duration" : 1875
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "ca6de1871f75d6e1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986297734,
+        "stop" : 1609986300066,
+        "duration" : 2332
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "43cc118bcbc537ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985781919,
+        "stop" : 1609985783825,
+        "duration" : 1906
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "53d6072163237f4c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986802426,
+        "stop" : 1609986804244,
+        "duration" : 1818
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "923abf315fede88e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985915057,
+        "stop" : 1609985918913,
+        "duration" : 3856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "d46d00987d7131ed",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985921030,
+        "stop" : 1609985922667,
+        "duration" : 1637
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "2a53582185e99276",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986703141,
+        "stop" : 1609986705279,
+        "duration" : 2138
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "99e982905343df91",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986699130,
+        "stop" : 1609986703141,
+        "duration" : 4011
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "da1b22ad028e6734",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985777821,
+        "stop" : 1609985781918,
+        "duration" : 4097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "fa3bd22a1c91acc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986381872,
+        "stop" : 1609986386250,
+        "duration" : 4378
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "25017ad6b68d0bf0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986874791,
+        "stop" : 1609986886482,
+        "duration" : 11691
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "fbf48ff170c6bc0d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986390403,
+        "stop" : 1609986402140,
+        "duration" : 11737
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "70cd2f52bdd12210",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610059681225,
+        "stop" : 1610059686899,
+        "duration" : 5674
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "26cc2c12fa68255a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985934487,
+        "stop" : 1609985936185,
+        "duration" : 1698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "c50afc525719d38a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985783825,
+        "stop" : 1609985785342,
+        "duration" : 1517
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "bd4ca6010df14177",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986816293,
+        "stop" : 1609986817962,
+        "duration" : 1669
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "7cd34e93f9b570a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986886482,
+        "stop" : 1609986888203,
+        "duration" : 1721
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "69d0b18400f6ad3e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986301695,
+        "stop" : 1609986313545,
+        "duration" : 11850
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "7ae9e6efb23ca96b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609987003785,
+        "stop" : 1609987015441,
+        "duration" : 11656
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "f4f566758c08c6b0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986657279,
+        "stop" : 1609986669565,
+        "duration" : 12286
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "c3546655a87eaf55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986452486,
+        "stop" : 1609986454855,
+        "duration" : 2369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "163d98163e979f13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985918913,
+        "stop" : 1609985921030,
+        "duration" : 2117
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "d44753191f4f46d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610059702105,
+        "stop" : 1610059704247,
+        "duration" : 2142
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "69b5c72fbde4ddae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609985922667,
+        "stop" : 1609985934487,
+        "duration" : 11820
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "a7246c288ea1b829",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986804245,
+        "stop" : 1609986816291,
+        "duration" : 12046
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "fdb4b39739b363f0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986313546,
+        "stop" : 1609986315915,
+        "duration" : 2369
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "37f8072d47656c30",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986705279,
+        "stop" : 1609986706971,
+        "duration" : 1692
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "535bb3f519b9e9e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986995014,
+        "stop" : 1609987000120,
+        "duration" : 5106
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "1c4b9ca8f5416447",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986669565,
+        "stop" : 1609986671954,
+        "duration" : 2389
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "593ac70d88d0cf44",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609985785342,
+        "stop" : 1609985796957,
+        "duration" : 11615
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "ecccfbb21f10783a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986190965,
+        "stop" : 1609986194891,
+        "duration" : 3926
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "e303ea4a6413d9c3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986294697,
+        "stop" : 1609986297733,
+        "duration" : 3036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "543062e770259f94",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986718634,
+        "stop" : 1609986721421,
+        "duration" : 2787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "e57a9caf21616290",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1610059688460,
+        "stop" : 1610059690385,
+        "duration" : 1925
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "86843f0d005a32b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986437264,
+        "stop" : 1609986439012,
+        "duration" : 1748
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "eb9fa506e7feffef",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986655518,
+        "stop" : 1609986657279,
+        "duration" : 1761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "fbd495f44dd7e5d0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609985796958,
+        "stop" : 1609985798659,
+        "duration" : 1701
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "56789d1c9b1c2790",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986439012,
+        "stop" : 1609986441016,
+        "duration" : 2004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "f97deadf5325d13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986210898,
+        "stop" : 1609986212745,
+        "duration" : 1847
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "4fe90b054971f58f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609987000121,
+        "stop" : 1609987002151,
+        "duration" : 2030
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "41eb413a5b3d4c9f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609987002151,
+        "stop" : 1609987003784,
+        "duration" : 1633
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "77ea4d2e3f80f899",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609987015441,
+        "stop" : 1609987018854,
+        "duration" : 3413
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "8adbed436a624d7c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986653405,
+        "stop" : 1609986655518,
+        "duration" : 2113
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "15e0cf872b921534",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986650126,
+        "stop" : 1609986653404,
+        "duration" : 3278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "50f446a823c0404",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986800454,
+        "stop" : 1609986802426,
+        "duration" : 1972
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "523bdc41aea6f3eb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986433140,
+        "stop" : 1609986437263,
+        "duration" : 4123
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing functionality with default values, changing date only.",
+      "uid" : "3a48cda7309188b8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986864620,
+        "stop" : 1609986870472,
+        "duration" : 5852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Long-Term Parking.",
+      "uid" : "9f06dd67a69097e9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986402140,
+        "stop" : 1609986404369,
+        "duration" : 2229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Economy Parking.",
+      "uid" : "b5f211b3de3f56df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1609986300066,
+        "stop" : 1609986301695,
+        "duration" : 1629
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.88" ]
+    }, {
+      "name" : "Testing for Short-Term Parking.",
+      "uid" : "4d17fe8d58900c41",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1609986706972,
+        "stop" : 1609986718634,
+        "duration" : 11662
       },
       "flaky" : false,
       "newFailed" : false,
